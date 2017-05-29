@@ -9,7 +9,7 @@ define([
     "dojo/html",
     "AudioVideoPlayback/lib/jquery-1.11.2",
     "dojo/text!AudioVideoPlayback/widget/template/AudioVideoPlayback.html",
-    "AudioVideoPlayback/lib/jQueryjPlayer/jquery.jplayer.min"
+    "AudioVideoPlayback/lib/jQueryjPlayer/jquery.jplayer"
 ], function (declare, _WidgetBase, _TemplatedMixin, dom, domClass, domStyle, lang, html, _jQuery, widgetTemplate, jplayer) {
     "use strict";
     var $ = _jQuery.noConflict(true);
